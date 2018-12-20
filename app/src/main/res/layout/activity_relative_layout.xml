@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.asep.tugasbendera.RelativeLayout">
+
+    <RelativeLayout
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:background="@color/hitam">
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/b"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:background="@color/merah"
+        android:layout_below="@+id/a">
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/c"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:background="@color/kuning"
+        android:layout_below="@+id/b">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/d"
+        android:layout_width="137dp"
+        android:layout_height="260dp"
+        android:background="@color/biru"
+        android:layout_below="@+id/c">
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/e"
+        android:layout_width="137dp"
+        android:layout_height="260dp"
+        android:background="@color/putih"
+        android:layout_below="@+id/c"
+        android:layout_toRightOf="@+id/d">
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="137dp"
+        android:layout_height="260dp"
+        android:background="@color/merah"
+        android:layout_below="@+id/c"
+        android:layout_toRightOf="@+id/e">
+    </RelativeLayout>
+
+</RelativeLayout>

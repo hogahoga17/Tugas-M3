@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.asep.tugasbendera.ConstraintLayout">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraintLayout1a"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:background="@color/hitam">
+        </android.support.constraint.ConstraintLayout>
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraintLayout1b"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:background="@color/merah"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout1a">
+        </android.support.constraint.ConstraintLayout>
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraintLayout1c"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:background="@color/kuning"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout1b">
+        </android.support.constraint.ConstraintLayout>
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout1">
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraintLayout2a"
+            android:layout_width="137dp"
+            android:layout_height="260dp"
+            android:background="@color/biru">
+        </android.support.constraint.ConstraintLayout>
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraintLayout2b"
+            android:layout_width="137dp"
+            android:layout_height="260dp"
+            android:background="@color/putih"
+            app:layout_constraintStart_toEndOf="@+id/constraintLayout2a">
+        </android.support.constraint.ConstraintLayout>
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="137dp"
+            android:layout_height="260dp"
+            android:background="@color/merah"
+            app:layout_constraintStart_toEndOf="@+id/constraintLayout2b">
+        </android.support.constraint.ConstraintLayout>
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>
